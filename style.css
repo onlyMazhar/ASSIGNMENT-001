@@ -60,7 +60,7 @@ background-color: #f4f9ff;
                     /* Header Style */
 
 header {
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(Assets/Hero-bg.png);
     background-position: center;
     margin-bottom: 115px;
     
