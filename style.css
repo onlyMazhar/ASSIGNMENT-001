@@ -294,9 +294,12 @@ form input[type="email"], form input[type="text"], textarea{
 
 }
 
+
+
 label {
     display: block;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .btn-style-alter{
@@ -309,8 +312,38 @@ label {
 
 /* Footer Style */
 
-.footer-section{
+footer{
+    padding:104px 35%;
+    background-color: white;
     text-align: center;
-    margin: 15px;
+}
+
+
+footer h1 {
+    
+    font-size: 100px;
+    font-weight: 900;
+    padding-bottom: 8px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #8987A1;
+
+}
+
+footer ul {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8987A1;
+
 }
 
