@@ -259,3 +259,58 @@ nav {
     border-radius: 48px;
 }
 
+                    /* Contact Section Styles */
+
+
+.contact-section {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    gap:100px;
+}
+
+.contact-title, form {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+form {
+    max-width:50%;
+}
+
+form input[type="email"], form input[type="text"], textarea{
+    display: block;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    width: 96%;
+    padding: 20px 0 20px 20px ;
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-style-alter{
+    width: 100%;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+
+
+/* Footer Style */
+
+.footer-section{
+    text-align: center;
+    margin: 15px;
+}
+
