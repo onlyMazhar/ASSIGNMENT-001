@@ -14,7 +14,7 @@
 
 body {
 background-color: #f4f9ff;
-;
+
 }
 
 
@@ -71,7 +71,8 @@ header {
                     /* Navbar */
 nav {
     display: flex;
-    margin: 0 150px 160px 150px;
+    max-width: 1140px;
+    margin: 0 auto 150px;
     padding: 51px 0;
     justify-content: space-between;
 }
@@ -84,6 +85,8 @@ nav {
 .banner {
     text-align: center;
     padding-bottom: 150px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .banner-slogan {
